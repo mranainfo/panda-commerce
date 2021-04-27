@@ -1,0 +1,52 @@
+
+.catagoris img{
+    width: 100px;
+}
+.panda-slide .carousel-item{
+    background-color: #0000;
+    border-radius: 10px;
+}
+#subcribe{
+    background-color: #cecfda !important;
+    height: 350px;
+    border-radius: 10px;
+}
+.card{
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+    border: 0 !important;
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.3);
+    
+}
+.navbar-brand img{
+    width: 86%;
+}
+
+/* Foter */
+footer h1{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+footer p{
+    font-size: 14px;
+    color: #bbbb;
+    margin-left: -6px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+footer p:hover{
+    color: #28A745;
+    margin-left: -2px;
+}
+section{
+    margin-bottom: 80px;
+}
+
+.btn-primary{
+    border: none !important;
+    background-color: tomato !important;
+}

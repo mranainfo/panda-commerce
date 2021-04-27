@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panda-Ecommerce</title>
+  <!---CSS Link-->
+  <link rel="stylesheet" href="style.css">
+  <!---Bootstrap CSS CDN Link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+  <!---Navbar-->
+  <header class="container">
+    <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- Main Menu -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#watch">Watch</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#backpack">Backpack</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#shoes">Shoes</a>
+            </li>
+          </ul>
+
+          <!-- User Account -->
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-user me-2"></i>My Account</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-shopping-cart me-2"></i>Cart</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+    <!---Eand Navbar-->
+    <!---Slider-->
+    <div id="carouselExampleControls" class="carousel slide panda-slide mt-3" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row d-flex align-items-center p-3">
+            <div class="col-md-7">
+              <h1>Adidas Originals Men's Seeley Sneaker</h1>
+              <p>This is the best tv in the world for people who just want to waste time in front of tv want to waste
+                time in front of funky.</p>
+              <h3>$1200</h3>
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+            <div class="col-md-5">
+              <img src="images/banner-images/shohes.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row d-flex align-items-center p-3">
+            <div class="col-md-7">
+              <h1>BLACK BAY FIFTY-EIGHT</h1>
+              <p>This is the best headphone in the world for people who just want to waste time in front of funky world.
+              </p>
+              <h3>$420</h3>
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+            <div class="col-md-5">
+              <img src="images/banner-images/watch.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row d-flex align-items-center p-3">
+            <div class="col-md-7">
+              <h1>PUMA Boy's Backpacks and Lunch Boxes</h1>
+              <p>This is the best x-box in the world for people who just want to waste time in front of fake sports</p>
+              <h3>$1200</h3>
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+            <div class="col-md-5">
+              <img src="images/banner-images/backpack.webp" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+  </header>
+  <!---Catagori-->
+  <main class="container">
+    <section class="container overflow-hidden mt-5 catagoris">
+      <div class="row gx-5">
+        <div class="col mb-3 mb-lg-0">
+          <div class="p-3 rounded bg-success d-flex align-items-center justify-content-around">
+            <h1 class="text-white">Shohes</h1>
+            <img src="images/categories/shoes.png" alt="">
+          </div>
+        </div>
+
+        <div class="col mb-3 mb-lg-0">
+          <div class="p-3 rounded bg-secondary d-flex align-items-center justify-content-around">
+            <h1 class="text-white">Watch</h1>
+            <img src="images/categories/watch.png" alt="">
+          </div>
+        </div>
+        <div class="col mb-3 mb-lg-0">
+          <div class="p-3 rounded bg-info d-flex align-items-center justify-content-around">
+            <h1 class="text-white">Bag</h1>
+            <img src="images/categories/bag.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---Eand Catagori-->
+
+    <!---Shoes Section-->
+    <section id="shoes" class="mt-5">
+      <h3 class="mb-5">Shohes</h3>
+      <div class="row ">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Supply 350</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.
+              </p>
+              <h5>$120</h5>
+              <a href="#" class="btn btn-primary btn-sm"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nike 360</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <h5>$320</h5>
+              <a href="#" class="btn btn-primary btn-sm"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Red Airmax</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.
+              </p>
+              <h5>$350</h5>
+              <a href="#" class="btn btn-primary btn-sm"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Red Airmax</h5>
+              <p class="card-text">Nike Men's Tennis Classic CS Sneakers White University Red Size</p>
+              <h5>$350</h5>
+              <a href="#" class="btn btn-primary btn-sm"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---Eand Shoes Section-->
+    <!---Watch Section-->
+    <section id="watch" class="mt-5">
+      <h3 class="mb-5">Watch</h3>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="images/watch/watch1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Supply 350</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.
+              </p>
+              <h5>$120</h5>
+              <a href="#" class="btn btn-primary btn-sm"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="images/watch/watch2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nike 360</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <h5>$320</h5>
+              <a href="#" class="btn btn-primary btn-sm"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="images/watch/watch3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Red Airmax</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.
+              </p>
+              <h5>$350</h5>
+              <a href="#" class="btn btn-primary btn-sm"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="images/watch/watch4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Red Airmax</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.
+              </p>
+              <h5>$350</h5>
+              <a href="#" class="btn btn-primary btn-sm"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---BackPack Section-->
+    <section id="backpack" class="mt-5">
+      <h3 class="mb-5">BackPack</h3>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="images/bags/bag1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Supply 350</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.
+              </p>
+              <h5>$120</h5>
+              <a href="#" class="btn btn-primary btn-sm"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="images/bags/bag2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nike 360</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <h5>$320</h5>
+              <a href="#" class="btn btn-primary btn-sm"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="images/bags/bag3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Red Airmax</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.
+              </p>
+              <h5>$350</h5>
+              <a href="#" class="btn btn-primary btn-sm"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card h-100">
+            <img src="images/bags/bag2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Red Airmax</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.
+              </p>
+              <h5>$350</h5>
+              <a href="#" class="btn btn-primary btn-sm"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---Eand BackPack Section-->
+
+    <!---Subcribe Section-->
+    <section id="subcribe" class="d-flex align-items-center justify-content-center mt-5">
+      <div class="">
+        <h1>LET'S STAY IN TOUCH</h1>
+        <h5>Get updates on sales, specials and more</h5>
+        <div class="mb-3">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <button class="btn btn-primary">SUBMIT</button>
+      </div>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer class="container-fluid bg-dark">
+    <div class="container">
+      <div class="row justify-content-start">
+        <div class="col-lg-3">
+          <h1>Information</h1>
+          <p> <i class="fas fa-angle-double-right"></i> About Us</p>
+          <p> <i class="fas fa-angle-double-right"></i> Latest Post</p>
+          <p> <i class="fas fa-angle-double-right"></i> Selling Tips</p>
+          <p> <i class="fas fa-angle-double-right"></i> Advertising</p>
+          <p> <i class="fas fa-angle-double-right"></i> Contact Us</p>
+        </div>
+        <div class="col-lg-3">
+          <h1>My Account</h1>
+          <p> <i class="fas fa-angle-double-right"></i> My Account</p>
+          <p> <i class="fas fa-angle-double-right"></i> Login/Register</p>
+          <p> <i class="fas fa-angle-double-right"></i> Cart</p>
+          <p> <i class="fas fa-angle-double-right"></i> Wishlist</p>
+          <p> <i class="fas fa-angle-double-right"></i> Order History</p>
+        </div>
+
+        <div class="col-lg-3">
+          <h1 class="">Support</h1>
+          <p> <i class="fas fa-angle-double-right"></i> How To Shop</p>
+          <p> <i class="fas fa-angle-double-right"></i> Payment</p>
+          <p> <i class="fas fa-angle-double-right"></i> Returns</p>
+          <p> <i class="fas fa-angle-double-right"></i> Delivery</p>
+          <p> <i class="fas fa-angle-double-right"></i> Privacy & Cookie Policy</p>
+        </div>
+
+        <div class="col-lg-3">
+          <h1><img src="images/logo.png" alt=""></h1>
+          <p><i class="fas fa-map-marker-alt"></i> 59 Street, Newyork City, Rose Town, 05 Rive House</p>
+          <p><i class="fas fa-mobile"></i> 01521380593</p>
+          <p><i class="fas fa-envelope-open-text"></i> info@example.com</p>
+        </div>
+      </div>
+      <hr />
+
+      <div class="text-center py-4">
+        <div class="container">
+          <p class="mb-0">Copyright © 2021 | This template made with <i class="icons icon-heart"></i> by <a
+              href="https://www.instagram.com/m_rana_wd/" target="_blank">M.Rana</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+  <!---Bootstrap Js CDN Lind-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
